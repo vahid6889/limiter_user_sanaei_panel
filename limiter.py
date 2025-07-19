@@ -16,7 +16,7 @@ _max_allowed_connections = 1
 _checkCycle = 60 #seconds
 _telegrambot_token = 'YOUR_TELEGRAM_TOKEN_BOT'
 _telegram_chat_id = '' # you can get this in @cid_bot bot.
-_sv_addr = 'Burstable-1'
+_sv_addr = 'YOUR_SERVER_NAME'
 
 def extract_limit(remark, default=_max_allowed_connections):
     match = re.search(r'\[(\d+)\]', remark)
